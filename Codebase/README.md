@@ -82,14 +82,11 @@ Extra: data is **saved to the CSV file after every change**, and the program is 
 ```
 Pharmacy-Inventory-System/
 │
-├── Pharmacy_Inventory.py     # Main program (single .py file)
-├── medicines.csv             # Data file (created automatically)
-├── README.md                 # Project documentation (this file)
-└── screenshots/              # Test case screenshots
-    ├── test_case_1.png
-    ├── test_case_2.png
-    ├── test_case_3.png
-    └── test_case_4.png
+├── Codebase/
+│   └── Pharmacy_Inventory.py   # Main program (single .py file)
+    └── README.md  
+├── TestCases/                  # Screenshots of the test cases
+└── README.md                   # Project documentation (this file)
 ```
 
 ---
@@ -126,10 +123,10 @@ and all medicines together form a **list of dictionaries**.
 
 **Requirements:** Python 3 installed (no extra libraries needed, `csv` is built into Python).
 
-1. Download or clone the project:
+1. Clone the repository and go into the `Codebase` folder (or download it as a ZIP and open the folder in VS Code):
    ```bash
-   git clone https://github.com/<your-username>/Pharmacy-Inventory-System.git
-   cd Pharmacy-Inventory-System
+   git clone https://github.com/sampada-code14/Pharmacy-Inventory-System.git
+   cd Pharmacy-Inventory-System/Codebase
    ```
 2. Run the program from the terminal:
    ```bash
@@ -138,7 +135,7 @@ and all medicines together form a **list of dictionaries**.
    (On some systems use `python3 Pharmacy_Inventory.py`.)
 3. Type the number of the option you want and press **Enter**.
 
-> `medicines.csv` is created automatically when the first medicine is added.
+> You do not have to create `medicines.csv` yourself. The program creates it automatically when the first medicine is added.
 
 ---
 
@@ -245,7 +242,7 @@ Medicine added. ID: M1 | Paracetamol | Qty: 50 | Price: 2.50
 ```
 **Result:** ✅ Pass
 
-📸 `screenshots/test_case_1.png`
+📸 Screenshot: see the `TestCases` folder.
 
 ---
 
@@ -265,7 +262,7 @@ Stock left: 0 | Out of stock!
 ```
 **Result:** ✅ Pass
 
-📸 `screenshots/test_case_2.png`
+📸 Screenshot: see the `TestCases` folder.
 
 ---
 
@@ -284,7 +281,7 @@ Insufficient stock. Available: 5
 ```
 **Result:** ✅ Pass
 
-📸 `screenshots/test_case_3.png`
+📸 Screenshot: see the `TestCases` folder.
 
 ---
 
@@ -312,7 +309,7 @@ M3,Amoxicillin,30,12.00
 
 **Result:** ✅ Pass
 
-📸 `screenshots/test_case_4.png`
+📸 Screenshot: see the `TestCases` folder.
 
 ---
 
@@ -378,11 +375,11 @@ Goodbye!
 
 ## 👩‍💻 Author
 
-- **Name:** `<Your Name>`
-- **Roll No.:** `<Your Roll Number>`
-- **Course / Year:** `<B.Tech, First Year>`
-- **College:** `<Your College Name>`
-- **GitHub:** [`<your-username>`](https://github.com/<your-username>)
+- **Name:** Sampada Kumari Singh
+- **Roll No.:** RU-26-00092
+- **Course / Year:** B.Tech 1st Year
+- **College:** Rungta International Skills University
+- **GitHub:** [sampada-code14](https://github.com/sampada-code14)
 
 ---
 
