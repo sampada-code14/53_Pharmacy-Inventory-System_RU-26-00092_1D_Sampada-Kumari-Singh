@@ -80,11 +80,11 @@ Extra: data is **saved to the CSV file after every change**, and the program is 
 ## 📁 Project Structure
 
 ```
-Pharmacy-Inventory-System/
+53_Pharmacy-Inventory-System_RU-26-00092_1D_Sampada-Kumari-Singh/
 │
 ├── Codebase/
-│   └── Pharmacy_Inventory.py   # Main program (single .py file)
-    └── README.md  
+│   └── Pharmacy_Inventory.py   # Main program
+    └── README.md    
 ├── TestCases/                  # Screenshots of the test cases
 └── README.md                   # Project documentation (this file)
 ```
@@ -125,8 +125,8 @@ and all medicines together form a **list of dictionaries**.
 
 1. Clone the repository and go into the `Codebase` folder (or download it as a ZIP and open the folder in VS Code):
    ```bash
-   git clone https://github.com/sampada-code14/Pharmacy-Inventory-System.git
-   cd Pharmacy-Inventory-System/Codebase
+   git clone https://github.com/sampada-code14/53_Pharmacy-Inventory-System_RU-26-00092_1D_Sampada-Kumari-Singh.git
+   cd 53_Pharmacy-Inventory-System_RU-26-00092_1D_Sampada-Kumari-Singh/Codebase
    ```
 2. Run the program from the terminal:
    ```bash
@@ -378,6 +378,7 @@ Goodbye!
 - **Name:** Sampada Kumari Singh
 - **Roll No.:** RU-26-00092
 - **Course / Year:** B.Tech 1st Year
+- **Section:** 1D
 - **College:** Rungta International Skills University
 - **GitHub:** [sampada-code14](https://github.com/sampada-code14)
 
