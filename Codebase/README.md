@@ -1,10 +1,10 @@
-# 💊 Pharmacy Inventory System
+#  Pharmacy Inventory System
 
 **PS No. 53** | A console-based application in **Python 3** to manage a pharmacy's medicine stock using a **CSV file**.
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 1. [About the Project](#-about-the-project)
 2. [Problem Statement](#-problem-statement)
 3. [Features](#-features)
@@ -22,7 +22,7 @@
 
 ---
 
-## 📖 About the Project
+##  About the Project
 
 A medical store has to keep track of many medicines: how many are left, what the price is, and which ones are about to run out. Doing this on paper is slow and error-prone.
 
@@ -30,7 +30,7 @@ This project is a simple **console application** (it runs in the terminal, with 
 
 ---
 
-## 📝 Problem Statement
+##  Problem Statement
 
 Develop a console application to manage a pharmacy's medicine stock. The user can:
 
@@ -46,7 +46,7 @@ Data is stored in a CSV file.
 
 ---
 
-## ✨ Features
+##  Features
 
 | # | Feature | Description |
 |---|---|---|
@@ -62,7 +62,7 @@ Extra: data is **saved to the CSV file after every change**, and the program is 
 
 ---
 
-## 🧠 Concepts Used
+##  Concepts Used
 
 - **Python 3** basics: variables, data types (`int`, `float`, `str`)
 - **List**: stores all medicines
@@ -77,7 +77,7 @@ Extra: data is **saved to the CSV file after every change**, and the program is 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 53_Pharmacy-Inventory-System_RU-26-00092_1D_Sampada-Kumari-Singh/
@@ -91,7 +91,7 @@ Extra: data is **saved to the CSV file after every change**, and the program is 
 
 ---
 
-## 🗂️ Data Format (CSV)
+##  Data Format (CSV)
 
 Medicines are stored in `medicines.csv`:
 
@@ -119,7 +119,7 @@ and all medicines together form a **list of dictionaries**.
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 **Requirements:** Python 3 installed (no extra libraries needed, `csv` is built into Python).
 
@@ -139,7 +139,7 @@ and all medicines together form a **list of dictionaries**.
 
 ---
 
-## 🧾 Menu Options
+## Menu Options
 
 ```
 --- Pharmacy Inventory System ---
@@ -165,7 +165,7 @@ Enter choice:
 
 ---
 
-## ⚙️ How the Program Works
+##  How the Program Works
 
 **Program flow:**
 
@@ -225,7 +225,7 @@ Load medicines.csv into a list of dictionaries
 
 ---
 
-## ✅ Test Cases
+##  Test Cases
 
 ### Test Case 1: Normal Input
 
@@ -240,7 +240,7 @@ Price: 2.50
 ```
 Medicine added. ID: M1 | Paracetamol | Qty: 50 | Price: 2.50
 ```
-**Result:** ✅ Pass
+**Result:**  Pass
 
 📸 Screenshot: see the `TestCases` folder.
 
@@ -324,7 +324,7 @@ M3,Amoxicillin,30,12.00
 
 ---
 
-## 💻 Sample Run
+##  Sample Run
 
 ```
 --- Pharmacy Inventory System ---
@@ -356,7 +356,7 @@ Goodbye!
 
 ---
 
-## ⚠️ Limitations and Future Scope
+##  Limitations and Future Scope
 
 **Current limitations**
 - If the user types text where a number is expected (for example `abc` as quantity), the program may stop with an error. This can be handled with `try / except ValueError`.
@@ -373,7 +373,7 @@ Goodbye!
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 - **Name:** Sampada Kumari Singh
 - **Roll No.:** RU-26-00092
